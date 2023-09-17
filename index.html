@@ -13,23 +13,51 @@
   </head>
   <body>
     <h1 class="text-center display-1 text-success">Grid</h1>
-    <div class="container text-center display-6" style="height: 100vh">
+    <div
+      class="border border-info container text-center display-6"
+      style="height: 50vh"
+    >
       <div class="row justify-content-center">
-        <div class="col bg-danger">6</div>
-        <div class="col bg-warning">6</div>
+        <div class="bg-danger col-6">6</div>
+        <div class="bg-warning col-6">6</div>
         <div class="bg-info col-12">12</div>
         <div class="bg-success col-4">4</div>
       </div>
-      <div class="row h-25">
+      <div class="row align-items-center">
         <div class="bg-dark col-4 text-light">4</div>
-        <div class="col bg-warning col-8">8</div>
-        <div class="col bg-danger col-4">4</div>
-        <div class="col bg-success col-4">4</div>
-        <div class="col bg-danger col-4">4</div>
+        <div class="bg-warning col-8">8</div>
+        <div class="bg-danger col-4">4</div>
+        <div class="bg-success col-4">4</div>
+        <div class="bg-danger col-4">4</div>
       </div>
-      <div class="row h-50">
-        <div class="col bg-info">6</div>
-        <div class="col bg-warning">6</div>
+      <div class="row h-25 align-items-center">
+        <div class="bg-info col-6">6</div>
+        <div class="bg-warning col-6">6</div>
+      </div>
+      <div class="row">
+        <div class="bg-warning col-8 d-flex justify-content-center">8</div>
+      </div>
+    </div>
+    <hr />
+
+    <h2 class="text-center">D-FLEX ALIGN</h2>
+    <div class="container border border-danger display-4 border-primary">
+      <div class="row justify-content-center">
+        <div class="col-4 bg-success">center</div>
+        <div class="col-3 bg-danger">center</div>
+      </div>
+
+      <div class="row justify-content-between">
+        <div class="col-4 bg-warning">between</div>
+        <div class="col-3 bg-info">between</div>
+      </div>
+
+      <div
+        style="height: 25vh"
+        class="row border border-warning justify-content-evenly align-items-center"
+      >
+        <div class="col-4 bg-secondary">between</div>
+        <div class="col-3 bg-dark text-light">between</div>
       </div>
     </div>
   </body>
